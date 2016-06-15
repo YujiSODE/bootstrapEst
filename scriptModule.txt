@@ -1,0 +1,37 @@
+/*Average of data set*/
+var st=function(x){
+  var sum=0,n=x.length;
+  for(var i=0;i<n;i+=1){
+    sum+= +x[i];
+  }
+  return sum/n;
+};
+/*Average of data set*/
+'/*Average of data set*/\n  var sum=0,n=x.length;\n  for(var i=0;i<n;i+=1){\n    sum+= +x[i];}\n  return sum/n;\n/*Average of data set*/\n'
+/*======*/
+/*Sum of data set*/
+var st=function(x){
+  var sum=0,n=x.length;
+  for(var i=0;i<n;i+=1){
+    sum+= +x[i];
+  }
+  return sum;
+};
+/*Sum of data set*/
+'/*Sum of data set*/\n  var sum=0,n=x.length;\n  for(var i=0;i<n;i+=1){\n    sum+= +x[i];}\n  return sum;\n/*Sum of data set*/'
+/*======*/
+/*Standard deviation of data set; x.length > 1*/
+var st=function(x){
+  var sum=0,n=x.length,avg=0,dif=0,std_sub=0;
+  for(var i=0;i<n;i+=1){
+    sum+= +x[i];
+  }
+  avg=sum/n;
+  for(var j=0;j<n;j+=1){
+    dif=x[j]-avg;
+    std_sub+=dif*dif;
+  }
+  return Math.sqrt(std_sub/(n-1));
+};
+/*Standard deviation of data set*/
+'/*Standard deviation of data set; x.length > 1*/\nvar sum=0,n=x.length,avg=0,dif=0,std_sub=0;\n  for(var i=0;i<n;i+=1){\n    sum+= +x[i];}\n  avg=sum/n;\n  for(var j=0;j<n;j+=1){\n    dif=x[j]-avg;\n    std_sub+=dif*dif;}\n  return Math.sqrt(std_sub/(n-1));\n/*Standard deviation of data set*/\n'
