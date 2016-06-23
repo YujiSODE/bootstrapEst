@@ -9,9 +9,8 @@
 //with bootstrap Method (Efron,1979).
 //reference:
 //Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
-(function(){
+function bootstrapEst(){
 //============================================================================
-this.window.addEventListener('load',function(){
   var slf=this.window,
       wkObj={},
       W=wkObj.wk;
@@ -239,6 +238,5 @@ var stat_def=[];
          resultInput.value+=cRight+_date+'\nSample size:'+N+'\nSimulation:'+T+'\nScript:\n'+stSpt+'\n//=== '+_date+' ===\n';
        },true);
 //=== </eventlisteners with worker> ===
-},true);
 //============================================================================
-}());
+}
