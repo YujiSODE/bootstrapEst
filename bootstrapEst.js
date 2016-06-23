@@ -9,7 +9,7 @@
 //with bootstrap Method (Efron,1979).
 //reference:
 //Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
-function bootstrapEst@(){
+function bootstrapEst(){
 //============================================================================
 //this.window.addEventListener('load',function(){
   var slf=this.window,
