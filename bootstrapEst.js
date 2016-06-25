@@ -5,8 +5,7 @@
 *    This software is released under the MIT License.
 *    See LICENSE.txt or http://opensource.org/licenses/mit-license.php
 */
-//this creates simple interface for estimation on a value of statistic,
-//with bootstrap Method (Efron,1979).
+//the simple interface for estimation of a value of statistic, with bootstrap Method (Efron,1979) on Firefox.
 //reference:
 //Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
 function bootstrapEst(){
