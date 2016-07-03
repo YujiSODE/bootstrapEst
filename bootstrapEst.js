@@ -10,7 +10,7 @@
 //Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
 function bootstrapEst(){
 //============================================================================
-  var slf=this.window,
+  var slf=window,
       wkObj={},
       W=wkObj.wk;
   var rand10 = slf.Math.random().toFixed(10).replace(/\./g, '');
